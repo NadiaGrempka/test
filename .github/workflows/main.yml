@@ -9,7 +9,7 @@ env:
   IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/ci-cd-pipeline
 
 jobs:
-#########
+
   test:
     name: Unit tests and integration tests
     runs-on: ubuntu-latest
